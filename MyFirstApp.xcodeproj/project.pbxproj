@@ -19,6 +19,12 @@
 		BB05AFC618B9483000CABCCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB05AFAE18B9483000CABCCA /* UIKit.framework */; };
 		BB05AFCE18B9483000CABCCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB05AFCC18B9483000CABCCA /* InfoPlist.strings */; };
 		BB05AFD018B9483000CABCCA /* MyFirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB05AFCF18B9483000CABCCA /* MyFirstAppTests.m */; };
+		BB05AFDC18B94E3400CABCCA /* PopularMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB05AFDA18B94E3400CABCCA /* PopularMediaViewController.m */; };
+		BB05AFDD18B94E3400CABCCA /* PopularMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB05AFDB18B94E3400CABCCA /* PopularMediaViewController.xib */; };
+		BBF6138518BA85A60099CDF9 /* MediaController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF6138218BA85A60099CDF9 /* MediaController.m */; };
+		BBF6138618BA85A60099CDF9 /* MediaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF6138418BA85A60099CDF9 /* MediaObject.m */; };
+		BBF6138A18BA9FF50099CDF9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF6138818BA9FF50099CDF9 /* ImageViewController.m */; };
+		BBF6138B18BA9FF50099CDF9 /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBF6138918BA9FF50099CDF9 /* ImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,16 @@
 		BB05AFCB18B9483000CABCCA /* MyFirstAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFirstAppTests-Info.plist"; sourceTree = "<group>"; };
 		BB05AFCD18B9483000CABCCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB05AFCF18B9483000CABCCA /* MyFirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstAppTests.m; sourceTree = "<group>"; };
+		BB05AFD918B94E3400CABCCA /* PopularMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopularMediaViewController.h; sourceTree = "<group>"; };
+		BB05AFDA18B94E3400CABCCA /* PopularMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopularMediaViewController.m; sourceTree = "<group>"; };
+		BB05AFDB18B94E3400CABCCA /* PopularMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopularMediaViewController.xib; sourceTree = "<group>"; };
+		BBF6138118BA85A60099CDF9 /* MediaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaController.h; sourceTree = "<group>"; };
+		BBF6138218BA85A60099CDF9 /* MediaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaController.m; sourceTree = "<group>"; };
+		BBF6138318BA85A60099CDF9 /* MediaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaObject.h; sourceTree = "<group>"; };
+		BBF6138418BA85A60099CDF9 /* MediaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaObject.m; sourceTree = "<group>"; };
+		BBF6138718BA9FF50099CDF9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		BBF6138818BA9FF50099CDF9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		BBF6138918BA9FF50099CDF9 /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +126,16 @@
 				BB05AFB918B9483000CABCCA /* AppDelegate.h */,
 				BB05AFBA18B9483000CABCCA /* AppDelegate.m */,
 				BB05AFBC18B9483000CABCCA /* Images.xcassets */,
+				BBF6138718BA9FF50099CDF9 /* ImageViewController.h */,
+				BBF6138818BA9FF50099CDF9 /* ImageViewController.m */,
+				BBF6138918BA9FF50099CDF9 /* ImageViewController.xib */,
+				BBF6138118BA85A60099CDF9 /* MediaController.h */,
+				BBF6138218BA85A60099CDF9 /* MediaController.m */,
+				BBF6138318BA85A60099CDF9 /* MediaObject.h */,
+				BBF6138418BA85A60099CDF9 /* MediaObject.m */,
+				BB05AFD918B94E3400CABCCA /* PopularMediaViewController.h */,
+				BB05AFDA18B94E3400CABCCA /* PopularMediaViewController.m */,
+				BB05AFDB18B94E3400CABCCA /* PopularMediaViewController.xib */,
 				BB05AFB118B9483000CABCCA /* Supporting Files */,
 			);
 			path = MyFirstApp;
@@ -219,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB05AFDD18B94E3400CABCCA /* PopularMediaViewController.xib in Resources */,
 				BB05AFB518B9483000CABCCA /* InfoPlist.strings in Resources */,
+				BBF6138B18BA9FF50099CDF9 /* ImageViewController.xib in Resources */,
 				BB05AFBD18B9483000CABCCA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF6138A18BA9FF50099CDF9 /* ImageViewController.m in Sources */,
+				BBF6138518BA85A60099CDF9 /* MediaController.m in Sources */,
 				BB05AFBB18B9483000CABCCA /* AppDelegate.m in Sources */,
 				BB05AFB718B9483000CABCCA /* main.m in Sources */,
+				BBF6138618BA85A60099CDF9 /* MediaObject.m in Sources */,
+				BB05AFDC18B94E3400CABCCA /* PopularMediaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +473,7 @@
 				BB05AFD518B9483000CABCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB05AFD618B9483000CABCCA /* Build configuration list for PBXNativeTarget "MyFirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +482,7 @@
 				BB05AFD818B9483000CABCCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
